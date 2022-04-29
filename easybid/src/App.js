@@ -1,10 +1,14 @@
 import './App.css'
-import Header from "./Header";
+import Nav from "./componets/Nav";
+import Header from './componets/Header'
+import Auctions from './componets/Auctions';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Nav/>
+      <Header />
+      <Auctions />
     </div>
   );
 }
