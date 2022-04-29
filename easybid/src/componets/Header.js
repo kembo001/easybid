@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Cars from '../images/Cars.jpeg'
+import whiteCar from '../images/whiteCar.webp'
 
 function Header() {
   return (
@@ -14,6 +15,10 @@ function Header() {
 Every auction you see on our site is contracted and managed by an independent affiliate company. These companies have chosen to utilize EasyBid as their preferred 
 
 online auction venue. Many individuals and businesses contract with these affiliates in order to liquidate assets and manage the auctions on their behalf. <a href='#aboutUs'>Click Here</a> to learn more</p>
+      </div>
+
+      <div className='whiteCarDiv'>
+        <img className='whiteCar' src={whiteCar} alt=''/>
       </div>
     </div>
   )
