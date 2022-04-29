@@ -1,2 +1,2 @@
-# easybid
-Auction Site
+# Easy Bid
+
