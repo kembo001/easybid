@@ -16,3 +16,18 @@
     padding: 30px;
     margin-left: 25%;
 }
+
+.aboutHeader{
+    background-color: #d7fc03;
+    width: 40%;
+    display: block;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    padding: 2%;
+}
+
+.aboutHeader > p{
+    font-weight: 900;
+}

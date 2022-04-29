@@ -9,8 +9,8 @@ function Header() {
           <label className='logo'>EasyBid</label>
             <ul>
               <li><a href='#home'>Home</a></li>
-              <li><a href='#auctions'>Auctions</a></li>
-              <li><a href='#account'>Account</a></li>
+              <li><a href='#auctions'>Sign In</a></li>
+              <li><a href='#account'>Auctions</a></li>
               <li><a href='#contact'>Contact</a></li>
               <li><a href='#aboutUs'>About Us</a></li>
               <li> <div className='header_search'>

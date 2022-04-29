@@ -5,35 +5,45 @@ import image1 from '../images/Cars.jpeg'
 const data = [
     {
         id: 1, 
-        title: 'Toyota Camry 2012',
+        title: 'Toyota',
+        Model: 'Camry',
+        Year: 2012,
         image: image1,
         timer: 100,
         price: '$2050'
     },
     {
-        id: 2, 
-        title: 'Toyota Camry 2012',
+        id: 1, 
+        title: 'Toyota',
+        Model: 'Camry',
+        Year: 2012,
         image: image1,
         timer: 100,
         price: '$2050'
     },
     {
-        id: 3, 
-        title: 'Toyota Camry 2012',
+        id: 1, 
+        title: 'Toyota',
+        Model: 'Camry',
+        Year: 2012,
         image: image1,
         timer: 100,
         price: '$2050'
     },
     {
-        id: 4, 
-        title: 'Toyota Camry 2012',
+        id: 1, 
+        title: 'Toyota',
+        Model: 'Camry',
+        Year: 2012,
         image: image1,
         timer: 100,
         price: '$2050'
     },
     {
-        id: 5, 
-        title: 'Toyota Camry 2012',
+        id: 1, 
+        title: 'Toyota',
+        Model: 'Camry',
+        Year: 2012,
         image: image1,
         timer: 100,
         price: '$2050'
@@ -48,10 +58,12 @@ function Auctions() {
         </div>
         <div className='carContainer'>
             {
-                data.map(({id, title, image, price, timer}) => {
+                data.map(({id, title, Model, Year, image, price, timer}) => {
                     return(
                     <article key={id} className='carItem'>
-                        <h3>{title}</h3>
+                        <h3>Make: {title}</h3>
+                        <h3>Model: {Model}</h3>
+                        <h3>Year: {Year}</h3>
                         <div className='carImage'>
                             <img src={image} alt='' />
                         </div>
