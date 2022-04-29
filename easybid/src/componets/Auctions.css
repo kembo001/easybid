@@ -1,5 +1,7 @@
 .carImage > img{
-    width: 100%;
+    width: 50%;
+    overflow: hidden;
+    height: fit-content;
 }
 
 .carContainer{
@@ -7,4 +9,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+}
+
+.carDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-left: 17%;
 }
